@@ -29,9 +29,9 @@ client.on('guildMemberAdd', member => {
     var embed = new Discord.RichEmbed()
     .setThumbnail(member.user.avatarURL)
   .addField("***شكرا الانضمامك الينا***" ,member.user.username )
-    .setDescription('***الرسالة الترحيب Marley Store***')
+    .setDescription('**هلا بيك في سرفرنا ي بطل**')
     .setColor('RANDOM')
-    .setImage('https://cdn.discordapp.com/attachments/518886358320676875/518915195293270038/f8b2f805f1b46d4f.png')
+    .setImage('https://cdn.pg.sa/WbyPcWcnZw.png')
 var channel = member.guild.channels.find('name', 'welcome')
 if (!channel) return;
 channel.send({embed : embed});
