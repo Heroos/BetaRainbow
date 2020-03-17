@@ -16,7 +16,7 @@ client.on('ready', () => {
 
 client.on("ready", () => {
   function lol() {
-    client.guilds.get('518874511249244180').roles.find("name", "Disco").setColor("RANDOM");
+    client.guilds.get('328932248109842433').roles.find("name", "Disco").setColor("RANDOM");
   };
   setInterval(lol, 10000);
 });
